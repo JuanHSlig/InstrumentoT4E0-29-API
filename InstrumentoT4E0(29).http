@@ -1,0 +1,6 @@
+@InstrumentoT4E0_29__HostAddress = http://localhost:5245
+
+GET {{InstrumentoT4E0_29__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
