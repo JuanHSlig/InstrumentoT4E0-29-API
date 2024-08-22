@@ -1,4 +1,6 @@
-﻿namespace InstrumentoT4E0_29_.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace InstrumentoT4E0_29_.Models
 {
     public class EFinalBDT4E0_29
     {
@@ -8,8 +10,8 @@
         public DateTime? fechaEntrevista_final { get; set; }
         public DateTime? fechaNacBb { get; set; }
         public int? edadBb { get; set; }
-        public string? tallaBb { get; set; }
-        public string? peso_2 { get; set; }
+        public double? tallaBb { get; set; }
+        public double? peso_2 { get; set; }
         public DateTime? fechaUltimoControl { get; set; }
         public string? marc_Toalli { get; set; }
         public string? ayuda_1 { get; set; }
@@ -21,9 +23,6 @@
         public string? ayuda_3 { get; set; }
         public string? ayudaFrecuencia_3 { get; set; }
         public string? ayudaRecomienda_3 { get; set; }
-        public string? cambioMarca { get; set; }
-        public string? cambioMarca_Rz { get; set; }
-        public string? cambioMarca_ORz { get; set; }
         public string? tm1 { get; set; }
         public string? tm1_rz1 { get; set; }
         public string? tm1_rz1_1 { get; set; }
@@ -76,78 +75,77 @@
         public string? pref_rz4 { get; set; }
         public string? pref_rz4_1 { get; set; }
         public string? pref_rz4_2 { get; set; }
-        public string? jdua_ben1 { get; set; }
-        public string? jdua_ben2 { get; set; }
-        public string? jdua_ben3 { get; set; }
-        public string? jdua_ben4 { get; set; }
-        public string? jdua_ben5 { get; set; }
-        public string? jdua_ben6 { get; set; }
+        public string? pref_rz_top { get; set; }
+        public int? jdua_ben1 { get; set; }
+        public int? jdua_ben2 { get; set; }
+        public int? jdua_ben3 { get; set; }
+        public int? jdua_ben4 { get; set; }
+        public int? jdua_ben5 { get; set; }
+        public int? jdua_ben6 { get; set; }
         public string? jdua_benotro { get; set; }
-        public string? jdua_ben7 { get; set; }
-        public string? e1m1 { get; set; }
+        public int? jdua_ben7 { get; set; }
+        public int? e1m1 { get; set; }
         public string? e1m1_rz1 { get; set; }
         public string? e1m1_rz2 { get; set; }
-        public string? e1m2 { get; set; }
+        public int? e1m2 { get; set; }
         public string? e1m2_rz1 { get; set; }
         public string? e1m2_rz2 { get; set; }
-        public string? e1m3 { get; set; }
+        public int? e1m3 { get; set; }
         public string? e1m3_rz1 { get; set; }
         public string? e1m3_rz2 { get; set; }
-        public string? e2m1 { get; set; }
+        public int? e2m1 { get; set; }
         public string? e2m1_rz1 { get; set; }
         public string? e2m1_rz2 { get; set; }
-        public string? e2m2 { get; set; }
+        public int? e2m2 { get; set; }
         public string? e2m2_rz1 { get; set; }
         public string? e2m2_rz2 { get; set; }
-        public string? e2m3 { get; set; }
+        public int? e2m3 { get; set; }
         public string? e2m3_rz1 { get; set; }
         public string? e2m3_rz2 { get; set; }
-        public string? e3m1 { get; set; }
+        public int? e3m1 { get; set; }
         public string? e3m1_rz1 { get; set; }
         public string? e3m1_rz2 { get; set; }
-        public string? e3m2 { get; set; }
+        public int? e3m2 { get; set; }
         public string? e3m2_rz1 { get; set; }
         public string? e3m2_rz2 { get; set; }
-        public string? e3m3 { get; set; }
+        public int? e3m3 { get; set; }
         public string? e3m3_rz1 { get; set; }
         public string? e3m3_rz2 { get; set; }
-        public string? e4m1 { get; set; }
+        public int? e4m1 { get; set; }
         public string? e4m1_rz1 { get; set; }
         public string? e4m1_rz2 { get; set; }
-        public string? e4m2 { get; set; }
+        public int? e4m2 { get; set; }
         public string? e4m2_rz1 { get; set; }
         public string? e4m2_rz2 { get; set; }
-        public string? e4m3 { get; set; }
+        public int? e4m3 { get; set; }
         public string? e4m3_rz1 { get; set; }
         public string? e4m3_rz2 { get; set; }
-        public string? e5m1 { get; set; }
+        public int? e5m1 { get; set; }
         public string? e5m1_rz1 { get; set; }
         public string? e5m1_rz2 { get; set; }
-        public string? e5m2 { get; set; }
+        public int? e5m2 { get; set; }
         public string? e5m2_rz1 { get; set; }
         public string? e5m2_rz2 { get; set; }
-        public string? e5m3 { get; set; }
+        public int? e5m3 { get; set; }
         public string? e5m3_rz1 { get; set; }
         public string? e5m3_rz2 { get; set; }
-        public string? e6m1 { get; set; }
+        public int? e6m1 { get; set; }
         public string? e6m1_rz1 { get; set; }
         public string? e6m1_rz2 { get; set; }
-        public string? e6m2 { get; set; }
+        public int? e6m2 { get; set; }
         public string? e6m2_rz1 { get; set; }
         public string? e6m2_rz2 { get; set; }
-        public string? e6m3 { get; set; }
+        public int? e6m3 { get; set; }
         public string? e6m3_rz1 { get; set; }
         public string? e6m3_rz2 { get; set; }
-        public string? eOm1_n { get; set; }
-        public string? eOm1 { get; set; }
+        public string? eO_n { get; set; }
+        public int? eOm1 { get; set; }
         public string? eOm1_rz1 { get; set; }
         public string? eOm1_rz2 { get; set; }
-        public string? eOm2_n { get; set; }
-        public string? eOm2 { get; set; }
+        public int? eOm2 { get; set; }
         public string? eOm2_rz1 { get; set; }
         public string? eOm2_rz2 { get; set; }
-        public string? eOm3_n { get; set; }
-        public string? eOm3 { get; set; }
+        public int? eOm3 { get; set; }
         public string? eOm3_rz1 { get; set; }
         public string? eOm3_rz2 { get; set; }
         public string? c1m1 { get; set; }
@@ -278,11 +276,6 @@
         public string? c14m3_rz2 { get; set; }
         public string? lug_icom { get; set; }
         public string? icom_1 { get; set; }
-        public string? icom_2 { get; set; }
-        public string? icom_3 { get; set; }
-        public string? icom_4 { get; set; }
-        public string? icom_5 { get; set; }
-        public string? icom_6 { get; set; }
         public string? icom_rz { get; set; }
         public string? incomp1 { get; set; }
         public string? incomp1_rz { get; set; }
@@ -290,6 +283,7 @@
         public string? incomp2_rz { get; set; }
         public string? panPrevios { get; set; }
         public string? panSiPrevios_adq { get; set; }
+        public string? panSiPreviosO_adq { get; set; }
         public string? panPrevios1_adq { get; set; }
         public string? panPrevios1_marcas { get; set; }
         public string? panPrevios1_marcasRz { get; set; }
@@ -305,25 +299,6 @@
         public string? panPrevios3_marcasRz { get; set; }
         public string? panPrevios3_marcasRec { get; set; }
         public string? panPrevios3_marcasRecRz { get; set; }
-        public string? panPrevios4_adq { get; set; }
-        public string? panPrevios4_marcas { get; set; }
-        public string? panPrevios4_marcasRz { get; set; }
-        public string? panPrevios4_marcasRec { get; set; }
-        public string? panPrevios4_marcasRecRz { get; set; }
-        public string? panPrevios5_adq { get; set; }
-        public string? panPrevios5_marcas { get; set; }
-        public string? panPrevios5_marcasRz { get; set; }
-        public string? panPrevios5_marcasRec { get; set; }
-        public string? panPrevios5_marcasRecRz { get; set; }
-        public string? expComPan { get; set; }
-        public string? cantPanPref { get; set; }
-        public string? valPanPref { get; set; }
-        public string? disPag { get; set; }
-        public string? valDisPag { get; set; }
-        public string? expM1 { get; set; }
-        public string? expM2 { get; set; }
-        public string? expM3 { get; set; }
-        public string? oportunidad { get; set; }
         public string? nom_ref_1 { get; set; }
         public string? num_ref_1 { get; set; }
         public string? obs_ref_1 { get; set; }
@@ -338,6 +313,8 @@
         public string? obs_ref_4 { get; set; }
         public string? val_est { get; set; }
         public string? val_est_rz { get; set; }
+        public DateTime? fecha_firma { get; set; }
+        public string? firma { get; set; }
         public string? prof_rec_1 { get; set; }
         public string? prof_rec_2 { get; set; }
         public string? prof_rec_3 { get; set; }

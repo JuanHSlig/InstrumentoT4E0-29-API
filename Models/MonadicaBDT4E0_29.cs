@@ -1,11 +1,13 @@
-﻿namespace InstrumentoT4E0_29_.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace InstrumentoT4E0_29_.Models
 {
     public class MonadicaBDT4E0_29
     {
         public int id { get; set; }
         public string? profesional_2 { get; set; }
         public string? participante { get; set; }
-        public byte? odenUsoM1 { get; set; }
+        public int? odenUsoM1 { get; set; }
         public string? semM1 { get; set; }
         public string? semM1Rz1 { get; set; }
         public string? semM1Rz1_1 { get; set; }
@@ -16,15 +18,21 @@
         public string? semM1Rz3 { get; set; }
         public string? semM1Rz3_1 { get; set; }
         public string? semM1Rz3_2 { get; set; }
+        public string? semM1Rz4 { get; set; }
+        public string? semM1Rz4_1 { get; set; }
+        public string? semM1Rz4_2 { get; set; }
+        public string? semM1Rz5 { get; set; }
+        public string? semM1Rz5_1 { get; set; }
+        public string? semM1Rz5_2 { get; set; }
         public string? semM1A { get; set; }
-        public byte? semM1Ben1 { get; set; }
-        public byte? semM1Ben2 { get; set; }
-        public byte? semM1Ben3 { get; set; }
-        public byte? semM1Ben4 { get; set; }
-        public byte? semM1Ben5 { get; set; }
-        public byte? semM1Ben6 { get; set; }
+        public int? semM1Ben1 { get; set; }
+        public int? semM1Ben2 { get; set; }
+        public int? semM1Ben3 { get; set; }
+        public int? semM1Ben4 { get; set; }
+        public int? semM1Ben5 { get; set; }
+        public int? semM1Ben6 { get; set; }
         public string? semM1BenOtroN { get; set; }
-        public byte? semM1BenOtro { get; set; }
+        public int? semM1BenOtro { get; set; }
         public string? panM1Dur_1 { get; set; }
         public string? panM1Dur_2 { get; set; }
         public string? panM1Dur_3 { get; set; }
@@ -43,15 +51,15 @@
         public string? panM1Dur_16 { get; set; }
         public string? panM1Dur_17 { get; set; }
         public string? panM1Dur_18 { get; set; }
-        public string? cantDiaM1_1 { get; set; }
-        public string? cantDiaM1_2 { get; set; }
-        public string? cantDiaM1_3 { get; set; }
-        public string? cantNocheM1_1 { get; set; }
-        public string? cantNocheM1_2 { get; set; }
-        public string? cantNocheM1_3 { get; set; }
+        public int? cantDiaM1_1 { get; set; }
+        public int? cantDiaM1_2 { get; set; }
+        public int? cantDiaM1_3 { get; set; }
+        public int? cantNocheM1_1 { get; set; }
+        public int? cantNocheM1_2 { get; set; }
+        public int? cantNocheM1_3 { get; set; }
         public string? obsProM1 { get; set; }
         public string? filtM1 { get; set; }
-        public byte? filtM1No { get; set; }
+        public int? filtM1No { get; set; }
         public string? filtM1Mom_1 { get; set; }
         public string? filtM1Mom_2 { get; set; }
         public string? filM1Niv { get; set; }
@@ -73,7 +81,7 @@
         public string? tamM1Part_2 { get; set; }
         public string? tamM1Tipo_3 { get; set; }
         public string? tamM1Part_3 { get; set; }
-        public byte? odenUsoM2 { get; set; }
+        public int? odenUsoM2 { get; set; }
         public string? semM2 { get; set; }
         public string? semM2Rz1 { get; set; }
         public string? semM2Rz1_1 { get; set; }
@@ -84,15 +92,21 @@
         public string? semM2Rz3 { get; set; }
         public string? semM2Rz3_1 { get; set; }
         public string? semM2Rz3_2 { get; set; }
+        public string? semM2Rz4 { get; set; }
+        public string? semM2Rz4_1 { get; set; }
+        public string? semM2Rz4_2 { get; set; }
+        public string? semM2Rz5 { get; set; }
+        public string? semM2Rz5_1 { get; set; }
+        public string? semM2Rz5_2 { get; set; }
         public string? semM2A { get; set; }
-        public byte? semM2Ben1 { get; set; }
-        public byte? semM2Ben2 { get; set; }
-        public byte? semM2Ben3 { get; set; }
-        public byte? semM2Ben4 { get; set; }
-        public byte? semM2Ben5 { get; set; }
-        public byte? semM2Ben6 { get; set; }
+        public int? semM2Ben1 { get; set; }
+        public int? semM2Ben2 { get; set; }
+        public int? semM2Ben3 { get; set; }
+        public int? semM2Ben4 { get; set; }
+        public int? semM2Ben5 { get; set; }
+        public int? semM2Ben6 { get; set; }
         public string? semM2BenOtroN { get; set; }
-        public byte? semM2BenOtro { get; set; }
+        public int? semM2BenOtro { get; set; }
         public string? panM2Dur_1 { get; set; }
         public string? panM2Dur_2 { get; set; }
         public string? panM2Dur_3 { get; set; }
@@ -111,15 +125,15 @@
         public string? panM2Dur_16 { get; set; }
         public string? panM2Dur_17 { get; set; }
         public string? panM2Dur_18 { get; set; }
-        public string? cantDiaM2_1 { get; set; }
-        public string? cantDiaM2_2 { get; set; }
-        public string? cantDiaM2_3 { get; set; }
-        public string? cantNocheM2_1 { get; set; }
-        public string? cantNocheM2_2 { get; set; }
-        public string? cantNocheM2_3 { get; set; }
+        public int? cantDiaM2_1 { get; set; }
+        public int? cantDiaM2_2 { get; set; }
+        public int? cantDiaM2_3 { get; set; }
+        public int? cantNocheM2_1 { get; set; }
+        public int? cantNocheM2_2 { get; set; }
+        public int? cantNocheM2_3 { get; set; }
         public string? obsProM2 { get; set; }
         public string? filtM2 { get; set; }
-        public byte? filtM2No { get; set; }
+        public int? filtM2No { get; set; }
         public string? filtM2Mom_1 { get; set; }
         public string? filtM2Mom_2 { get; set; }
         public string? filM2Niv { get; set; }
@@ -141,7 +155,7 @@
         public string? tamM2Part_2 { get; set; }
         public string? tamM2Tipo_3 { get; set; }
         public string? tamM2Part_3 { get; set; }
-        public byte? odenUsoM3 { get; set; }
+        public int? odenUsoM3 { get; set; }
         public string? semM3 { get; set; }
         public string? semM3Rz1 { get; set; }
         public string? semM3Rz1_1 { get; set; }
@@ -152,15 +166,21 @@
         public string? semM3Rz3 { get; set; }
         public string? semM3Rz3_1 { get; set; }
         public string? semM3Rz3_2 { get; set; }
+        public string? semM3Rz4 { get; set; }
+        public string? semM3Rz4_1 { get; set; }
+        public string? semM3Rz4_2 { get; set; }
+        public string? semM3Rz5 { get; set; }
+        public string? semM3Rz5_1 { get; set; }
+        public string? semM3Rz5_2 { get; set; }
         public string? semM3A { get; set; }
-        public byte? semM3Ben1 { get; set; }
-        public byte? semM3Ben2 { get; set; }
-        public byte? semM3Ben3 { get; set; }
-        public byte? semM3Ben4 { get; set; }
-        public byte? semM3Ben5 { get; set; }
-        public byte? semM3Ben6 { get; set; }
+        public int? semM3Ben1 { get; set; }
+        public int? semM3Ben2 { get; set; }
+        public int? semM3Ben3 { get; set; }
+        public int? semM3Ben4 { get; set; }
+        public int? semM3Ben5 { get; set; }
+        public int? semM3Ben6 { get; set; }
         public string? semM3BenOtroN { get; set; }
-        public byte? semM3BenOtro { get; set; }
+        public int? semM3BenOtro { get; set; }
         public string? panM3Dur_1 { get; set; }
         public string? panM3Dur_2 { get; set; }
         public string? panM3Dur_3 { get; set; }
@@ -179,15 +199,15 @@
         public string? panM3Dur_16 { get; set; }
         public string? panM3Dur_17 { get; set; }
         public string? panM3Dur_18 { get; set; }
-        public string? cantDiaM3_1 { get; set; }
-        public string? cantDiaM3_2 { get; set; }
-        public string? cantDiaM3_3 { get; set; }
-        public string? cantNocheM3_1 { get; set; }
-        public string? cantNocheM3_2 { get; set; }
-        public string? cantNocheM3_3 { get; set; }
+        public int? cantDiaM3_1 { get; set; }
+        public int? cantDiaM3_2 { get; set; }
+        public int? cantDiaM3_3 { get; set; }
+        public int? cantNocheM3_1 { get; set; }
+        public int? cantNocheM3_2 { get; set; }
+        public int? cantNocheM3_3 { get; set; }
         public string? obsProM3 { get; set; }
         public string? filtM3 { get; set; }
-        public byte? filtM3No { get; set; }
+        public int? filtM3No { get; set; }
         public string? filtM3Mom_1 { get; set; }
         public string? filtM3Mom_2 { get; set; }
         public string? filM3Niv { get; set; }

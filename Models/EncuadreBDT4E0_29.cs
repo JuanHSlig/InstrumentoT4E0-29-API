@@ -1,4 +1,7 @@
-﻿namespace InstrumentoT4E0_29_.Models
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+
+namespace InstrumentoT4E0_29_.Models
 {
     public class EncuadreBDT4E0_29
     {
@@ -10,20 +13,20 @@
         public string? direccion { get; set; }
         public string? estrato { get; set; }
         public int? edad { get; set; }
-        public string? telefono1 { get; set; }
-        public string? telefono2 { get; set; }
+        public long? telefono1 { get; set; }
+        public long? telefono2 { get; set; }
         public string? usuaria { get; set; }
         public string? usuariaRz { get; set; }
         public string? usuariaORz { get; set; }
         public string? nombre_Bebe { get; set; }
         public string? sexo { get; set; }
-        public uint? doc_Identidad { get; set; }
+        public long? doc_Identidad { get; set; }
         public DateTime? fecha_Nac_Madre { get; set; }
         public string? correo_Electronico { get; set; }
         public string? ecivil { get; set; }
         public string? escola { get; set; }
         public string? ocupacion { get; set; }
-        public int? noHijos { get; set; }
+        public byte? noHijos { get; set; }
         public string? sexo_1 { get; set; }
         public int? edad_1 { get; set; }
         public string? edad_12 { get; set; }
@@ -39,6 +42,9 @@
         public string? sexo_5 { get; set; }
         public int? edad_5 { get; set; }
         public string? edad_52 { get; set; }
+        public string? sexo_6 { get; set; }
+        public int? edad_6 { get; set; }
+        public string? edad_62 { get; set; }
         public string? aspect_A { get; set; }
         public string? aspectProf_A { get; set; }
         public string? aspectCaract_A { get; set; }

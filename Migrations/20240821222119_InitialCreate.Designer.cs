@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InstrumentoT4E0_29_.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240809144622_InitialCreate")]
+    [Migration("20240821222119_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -27,60 +27,6 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    b.Property<string>("acpectD_1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("acpectD_2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("acpectD_3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("acpectD_4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("acpectD_5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("acpectD_6")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDCaract_6")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("aspectDProf_6")
-                        .HasColumnType("longtext");
 
                     b.Property<string>("ayudaFrecuencia_1")
                         .HasColumnType("longtext");
@@ -487,23 +433,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("c9m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("cambioMarca")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("cambioMarca_ORz")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("cambioMarca_Rz")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("cantPanPref")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("disPag")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("e1m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e1m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e1m1_rz1")
                         .HasColumnType("longtext");
@@ -511,8 +442,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e1m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e1m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e1m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e1m2_rz1")
                         .HasColumnType("longtext");
@@ -520,8 +451,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e1m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e1m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e1m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e1m3_rz1")
                         .HasColumnType("longtext");
@@ -529,8 +460,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e1m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e2m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e2m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e2m1_rz1")
                         .HasColumnType("longtext");
@@ -538,8 +469,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e2m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e2m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e2m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e2m2_rz1")
                         .HasColumnType("longtext");
@@ -547,8 +478,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e2m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e2m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e2m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e2m3_rz1")
                         .HasColumnType("longtext");
@@ -556,8 +487,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e2m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e3m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e3m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e3m1_rz1")
                         .HasColumnType("longtext");
@@ -565,8 +496,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e3m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e3m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e3m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e3m2_rz1")
                         .HasColumnType("longtext");
@@ -574,8 +505,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e3m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e3m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e3m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e3m3_rz1")
                         .HasColumnType("longtext");
@@ -583,8 +514,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e3m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e4m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e4m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e4m1_rz1")
                         .HasColumnType("longtext");
@@ -592,8 +523,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e4m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e4m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e4m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e4m2_rz1")
                         .HasColumnType("longtext");
@@ -601,8 +532,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e4m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e4m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e4m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e4m3_rz1")
                         .HasColumnType("longtext");
@@ -610,8 +541,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e4m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e5m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e5m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e5m1_rz1")
                         .HasColumnType("longtext");
@@ -619,8 +550,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e5m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e5m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e5m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e5m2_rz1")
                         .HasColumnType("longtext");
@@ -628,8 +559,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e5m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e5m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e5m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e5m3_rz1")
                         .HasColumnType("longtext");
@@ -637,8 +568,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e5m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e6m1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e6m1")
+                        .HasColumnType("int");
 
                     b.Property<string>("e6m1_rz1")
                         .HasColumnType("longtext");
@@ -646,8 +577,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e6m1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e6m2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e6m2")
+                        .HasColumnType("int");
 
                     b.Property<string>("e6m2_rz1")
                         .HasColumnType("longtext");
@@ -655,8 +586,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e6m2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("e6m3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("e6m3")
+                        .HasColumnType("int");
 
                     b.Property<string>("e6m3_rz1")
                         .HasColumnType("longtext");
@@ -664,11 +595,11 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("e6m3_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("eOm1")
+                    b.Property<string>("eO_n")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("eOm1_n")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("eOm1")
+                        .HasColumnType("int");
 
                     b.Property<string>("eOm1_rz1")
                         .HasColumnType("longtext");
@@ -676,11 +607,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("eOm1_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("eOm2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("eOm2_n")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("eOm2")
+                        .HasColumnType("int");
 
                     b.Property<string>("eOm2_rz1")
                         .HasColumnType("longtext");
@@ -688,11 +616,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("eOm2_rz2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("eOm3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("eOm3_n")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("eOm3")
+                        .HasColumnType("int");
 
                     b.Property<string>("eOm3_rz1")
                         .HasColumnType("longtext");
@@ -703,18 +628,6 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<int?>("edadBb")
                         .HasColumnType("int");
 
-                    b.Property<string>("expComPan")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("expM1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("expM2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("expM3")
-                        .HasColumnType("longtext");
-
                     b.Property<DateTime?>("fechaEntrevista_final")
                         .HasColumnType("datetime(6)");
 
@@ -723,6 +636,18 @@ namespace InstrumentoT4E0_29_.Migrations
 
                     b.Property<DateTime?>("fechaUltimoControl")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("fecha_firma")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("firma")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("icom_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("icom_rz")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("incomp1")
                         .HasColumnType("longtext");
@@ -736,67 +661,31 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("incomp2_rz")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("jdua_ben1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben4")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben4")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben5")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben5")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben6")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben6")
+                        .HasColumnType("int");
 
-                    b.Property<string>("jdua_ben7")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("jdua_ben7")
+                        .HasColumnType("int");
 
                     b.Property<string>("jdua_benotro")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("jdua_def_ben1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben6")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jdua_def_ben7")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("jerarquiaD_6")
+                    b.Property<string>("lug_icom")
                         .HasColumnType("longtext");
 
                     b.Property<string>("marc_Toalli")
@@ -838,24 +727,6 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("obs_ref_4")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("ombligo")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ombligo_recom")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ombligo_recomrz")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ombligo_recprof")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ombligo_rz")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("oportunidad")
-                        .HasColumnType("longtext");
-
                     b.Property<string>("panPrevios")
                         .HasColumnType("longtext");
 
@@ -874,14 +745,47 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("panPrevios1_marcasRz")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("panPrevios2_adq")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios2_marcas")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios2_marcasRec")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios2_marcasRecRz")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios2_marcasRz")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios3_adq")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios3_marcas")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios3_marcasRec")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios3_marcasRecRz")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panPrevios3_marcasRz")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("panSiPreviosO_adq")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("panSiPrevios_adq")
                         .HasColumnType("longtext");
 
                     b.Property<string>("participante")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("peso_2")
-                        .HasColumnType("longtext");
+                    b.Property<double?>("peso_2")
+                        .HasColumnType("double");
 
                     b.Property<string>("pref")
                         .HasColumnType("longtext");
@@ -922,6 +826,9 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("pref_rz4_2")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("pref_rz_top")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("prof_obs")
                         .HasColumnType("longtext");
 
@@ -937,8 +844,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("profesional_3")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("tallaBb")
-                        .HasColumnType("longtext");
+                    b.Property<double?>("tallaBb")
+                        .HasColumnType("double");
 
                     b.Property<string>("tm1")
                         .HasColumnType("longtext");
@@ -1057,12 +964,6 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("tm3_rz4_2")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("valDisPag")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("valPanPref")
-                        .HasColumnType("longtext");
-
                     b.Property<string>("val_est")
                         .HasColumnType("longtext");
 
@@ -1167,43 +1068,49 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("direccion")
                         .HasColumnType("longtext");
 
-                    b.Property<uint?>("doc_Identidad")
-                        .HasColumnType("int unsigned");
+                    b.Property<long?>("doc_Identidad")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("ecivil")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("edad")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("edad_1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad_1")
+                        .HasColumnType("int");
 
                     b.Property<string>("edad_12")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("edad_2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad_2")
+                        .HasColumnType("int");
 
                     b.Property<string>("edad_22")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("edad_3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad_3")
+                        .HasColumnType("int");
 
                     b.Property<string>("edad_32")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("edad_4")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad_4")
+                        .HasColumnType("int");
 
                     b.Property<string>("edad_42")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("edad_5")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("edad_5")
+                        .HasColumnType("int");
 
                     b.Property<string>("edad_52")
+                        .HasColumnType("longtext");
+
+                    b.Property<int?>("edad_6")
+                        .HasColumnType("int");
+
+                    b.Property<string>("edad_62")
                         .HasColumnType("longtext");
 
                     b.Property<string>("escola")
@@ -1215,44 +1122,44 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<DateTime?>("fecha_Nac_Madre")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<byte?>("jerarBen_1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_1")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_2")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_3")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_4")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_4")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_5")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_5")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_6")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_6")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarBen_Otro")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarBen_Otro")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_A")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_A")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_B")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_B")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_C")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_C")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_D")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_D")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_E")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_E")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("jerarquia_F")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("jerarquia_F")
+                        .HasColumnType("int");
 
                     b.Property<string>("marcaPan1")
                         .HasColumnType("longtext");
@@ -1335,27 +1242,6 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("refPan7")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("rzNoUsoPanM1")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM2")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM3")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM4")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM5")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM6")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("rzNoUsoPanM7")
-                        .HasColumnType("longtext");
-
                     b.Property<string>("sexo")
                         .HasColumnType("longtext");
 
@@ -1374,11 +1260,14 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("sexo_5")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("telefono1")
+                    b.Property<string>("sexo_6")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("telefono2")
-                        .HasColumnType("longtext");
+                    b.Property<long?>("telefono1")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("telefono2")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("usarPanM1")
                         .HasColumnType("longtext");
@@ -1442,59 +1331,59 @@ namespace InstrumentoT4E0_29_.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM1_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM1_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM1_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM1_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM1_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM1_3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM2_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM2_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM2_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM2_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM2_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM2_3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM3_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM3_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM3_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM3_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantDiaM3_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantDiaM3_3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM1_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM1_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM1_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM1_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM1_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM1_3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM2_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM2_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM2_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM2_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM2_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM2_3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM3_1")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM3_1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM3_2")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM3_2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cantNocheM3_3")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("cantNocheM3_3")
+                        .HasColumnType("int");
 
                     b.Property<string>("filM1Carct")
                         .HasColumnType("longtext");
@@ -1532,8 +1421,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("filtM1Mom_2")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("filtM1No")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("filtM1No")
+                        .HasColumnType("int");
 
                     b.Property<string>("filtM1Tipo")
                         .HasColumnType("longtext");
@@ -1547,8 +1436,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("filtM2Mom_2")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("filtM2No")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("filtM2No")
+                        .HasColumnType("int");
 
                     b.Property<string>("filtM2Tipo")
                         .HasColumnType("longtext");
@@ -1562,8 +1451,8 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("filtM3Mom_2")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("filtM3No")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("filtM3No")
+                        .HasColumnType("int");
 
                     b.Property<string>("filtM3Tipo")
                         .HasColumnType("longtext");
@@ -1649,14 +1538,14 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("obsProM3")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("odenUsoM1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("odenUsoM1")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("odenUsoM2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("odenUsoM2")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("odenUsoM3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("odenUsoM3")
+                        .HasColumnType("int");
 
                     b.Property<string>("panM1Dur_1")
                         .HasColumnType("longtext");
@@ -1832,26 +1721,26 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("semM1A")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("semM1Ben1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben1")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1Ben2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben2")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1Ben3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben3")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1Ben4")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben4")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1Ben5")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben5")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1Ben6")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1Ben6")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM1BenOtro")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM1BenOtro")
+                        .HasColumnType("int");
 
                     b.Property<string>("semM1BenOtroN")
                         .HasColumnType("longtext");
@@ -1883,32 +1772,50 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("semM1Rz3_2")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("semM1Rz4")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM1Rz4_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM1Rz4_2")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM1Rz5")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM1Rz5_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM1Rz5_2")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("semM2")
                         .HasColumnType("longtext");
 
                     b.Property<string>("semM2A")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("semM2Ben1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben1")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2Ben2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben2")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2Ben3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben3")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2Ben4")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben4")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2Ben5")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben5")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2Ben6")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2Ben6")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM2BenOtro")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM2BenOtro")
+                        .HasColumnType("int");
 
                     b.Property<string>("semM2BenOtroN")
                         .HasColumnType("longtext");
@@ -1940,32 +1847,50 @@ namespace InstrumentoT4E0_29_.Migrations
                     b.Property<string>("semM2Rz3_2")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("semM2Rz4")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM2Rz4_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM2Rz4_2")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM2Rz5")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM2Rz5_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM2Rz5_2")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("semM3")
                         .HasColumnType("longtext");
 
                     b.Property<string>("semM3A")
                         .HasColumnType("longtext");
 
-                    b.Property<byte?>("semM3Ben1")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben1")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3Ben2")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben2")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3Ben3")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben3")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3Ben4")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben4")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3Ben5")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben5")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3Ben6")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3Ben6")
+                        .HasColumnType("int");
 
-                    b.Property<byte?>("semM3BenOtro")
-                        .HasColumnType("tinyint unsigned");
+                    b.Property<int?>("semM3BenOtro")
+                        .HasColumnType("int");
 
                     b.Property<string>("semM3BenOtroN")
                         .HasColumnType("longtext");
@@ -1995,6 +1920,24 @@ namespace InstrumentoT4E0_29_.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("semM3Rz3_2")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz4")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz4_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz4_2")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz5")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz5_1")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("semM3Rz5_2")
                         .HasColumnType("longtext");
 
                     b.Property<string>("tamM1")
