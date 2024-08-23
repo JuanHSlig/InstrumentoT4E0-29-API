@@ -3,17 +3,20 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configuración de la cadena de conexión
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") ??
+    builder.Configuration.GetConnectionString("DefaultConnection");
+
 // Add services to the container.
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));
+builder.Services.AddDbContext<DbContext>(options =>
+    options.UseMySql(connectionString, new MySqlServerVersion(new Version(6, 0, 21))));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Habilitar CORS
-builder.Services.AddCors(options =>
-{
+builder.Services.AddCors(options => {
     options.AddPolicy("AllowAll",
         builder =>
         {
@@ -24,6 +27,10 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+// Configuración del puerto para Heroku
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://+:{port}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
