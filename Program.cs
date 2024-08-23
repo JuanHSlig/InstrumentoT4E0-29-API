@@ -9,7 +9,7 @@ var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") ??
 
 // Add services to the container.
 builder.Services.AddDbContext<DbContext>(options =>
-    options.UseMySql(connectionString, new MySqlServerVersion(new Version(6, 0, 21))));
+    options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21))));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -30,7 +30,7 @@ var app = builder.Build();
 
 // Configuración del puerto para Heroku
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-builder.WebHost.UseUrls($"http://+:{port}");
+app.Urls.Add($"http://+:{port}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
