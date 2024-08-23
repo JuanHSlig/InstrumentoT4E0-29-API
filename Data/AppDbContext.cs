@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using InstrumentoT4E0_29_.Models;
+using InstrumentoT4E0_29.Models;
 
-namespace InstrumentoT4E0_29_.Data
+namespace InstrumentoT4E0_29.Data
 {
     public class AppDbContext : DbContext
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace InstrumentoT4E0_29_.Models
+namespace InstrumentoT4E0_29.Models
 {
     public class EncuadreBDT4E0_29
     {

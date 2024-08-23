@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace InstrumentoT4E0_29_.Models
+namespace InstrumentoT4E0_29.Models
 {
     public class MonadicaBDT4E0_29
     {

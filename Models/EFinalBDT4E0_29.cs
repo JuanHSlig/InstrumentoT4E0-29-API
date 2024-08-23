@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace InstrumentoT4E0_29_.Models
+namespace InstrumentoT4E0_29.Models
 {
     public class EFinalBDT4E0_29
     {
@@ -276,6 +276,7 @@ namespace InstrumentoT4E0_29_.Models
         public string? c14m3_rz2 { get; set; }
         public string? lug_icom { get; set; }
         public string? icom_1 { get; set; }
+        public string? icom_m { get; set; }
         public string? icom_rz { get; set; }
         public string? incomp1 { get; set; }
         public string? incomp1_rz { get; set; }

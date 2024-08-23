@@ -1,5 +1,5 @@
-﻿using InstrumentoT4E0_29_.Data;
-using InstrumentoT4E0_29_.Models;
+﻿using InstrumentoT4E0_29.Data;
+using InstrumentoT4E0_29.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
